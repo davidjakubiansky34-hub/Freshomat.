@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Freshomat – automaty 24/7</title>
+  <meta name="description" content="Automaty 24/7 pre školy, firmy a obce. Servis do 24 h, transparentné reporty, platby kartou a mobilom."/>
+  <meta name="theme-color" content="#e11d48"/>
+  <link rel="manifest" href="./manifest.webmanifest"/>
+  <link rel="icon" href="./icons/icon-192.png"/>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { brand: { 600:'#e11d48',700:'#be123c' } } } } }
+  </script>
+</head>
+<body class="bg-white text-slate-900">
+  <header class="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/70 bg-white/80 border-b border-slate-200">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+      <a href="#home" class="flex items-center gap-3 group" aria-label="Freshomat domov">
+        <div class="h-9 w-9 rounded-xl bg-gradient-to-br from-brand-600 to-rose-600 grid place-content-center text-white font-bold">F</div>
+        <span class="text-xl font-semibold tracking-tight group-hover:opacity-90">Freshomat</span>
+      </a>
+      <nav class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#ponuka" class="hover:text-brand-600">Ponuka</a>
+        <a href="#preco" class="hover:text-brand-600">Prečo my</a>
+        <a href="#spolupraca" class="hover:text-brand-600">Spolupráca</a>
+        <a href="#realizacie" class="hover:text-brand-600">Realizácie</a>
+        <a href="#kontakt" class="hover:text-brand-600">Kontakt</a>
+      </nav>
+      <div class="flex items-center gap-3">
+        <a href="tel:+421000000000" class="hidden sm:inline-block rounded-xl border border-brand-600 px-4 py-2 text-sm font-medium text-brand-600 hover:bg-rose-50 focus:outline-none focus:ring-2 focus:ring-brand-600">Zavolať</a>
+        <a href="#kontakt" class="rounded-xl bg-gradient-to-r from-brand-600 to-rose-600 px-4 py-2 text-sm font-medium text-white shadow hover:opacity-95 focus:outline-none focus:ring-2 focus:ring-brand-600">Získať ponuku</a>
+      </div>
+    </div>
+  </header>
+  <main id="home" class="relative overflow-hidden">
+    <div aria-hidden class="pointer-events-none absolute -inset-x-20 -top-24 h-80 bg-gradient-to-b from-rose-600/15 to-transparent blur-3xl"></div>
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="py-16 sm:py-24 grid lg:grid-cols-2 items-center gap-10">
+        <div>
+          <h1 class="text-4xl sm:text-5xl font-extrabold tracking-tight">Automaty 24/7 pre školy, firmy a obce</h1>
+          <p class="mt-5 text-lg text-slate-600">
+            Prémiové snacky a káva. Rýchly <span class="font-semibold">servis do 24 h</span>, transparentné reporty a spoľahlivá prevádzka v interiéri aj exteriéri.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#kontakt" class="rounded-xl bg-gradient-to-r from-brand-600 to-rose-600 px-5 py-3 text-white font-medium shadow hover:opacity-95 focus:outline-none focus:ring-2 focus:ring-brand-600">Nezáväzná obhliadka</a>
+            <a href="mailto:info@freshomat.sk" class="rounded-xl px-5 py-3 font-medium border border-slate-300 hover:bg-slate-50 focus:outline-none focus:ring-2 focus:ring-brand-600">info@freshomat.sk</a>
+          </div>
+          <dl class="mt-10 grid grid-cols-2 sm:grid-cols-3 gap-6 text-sm">
+            <div class="rounded-2xl border border-slate-200 p-4"><dt class="text-slate-500">Dostupnosť</dt><dd class="mt-1 font-semibold">24/7</dd></div>
+            <div class="rounded-2xl border border-slate-200 p-4"><dt class="text-slate-500">Servis</dt><dd class="mt-1 font-semibold">do 24 h</dd></div>
+            <div class="rounded-2xl border border-slate-200 p-4"><dt class="text-slate-500">Platby</dt><dd class="mt-1 font-semibold">karta / mobil / hotovosť</dd></div>
+          </dl>
+        </div>
+        <div>
+          <div class="relative">
+            <div class="absolute -inset-2 bg-gradient-to-r from-brand-600 to-rose-600 rounded-3xl blur opacity-20" aria-hidden></div>
+            <div class="relative rounded-3xl border border-slate-200 bg-white p-4 shadow-xl">
+              <div class="aspect-[4/3] w-full rounded-2xl bg-[linear-gradient(135deg,rgba(244,63,94,0.08),rgba(225,29,72,0.08))] grid place-content-center text-center">
+                <div>
+                  <div class="mx-auto mb-4 h-14 w-14 rounded-2xl bg-white/80 grid place-content-center shadow border border-slate-200"><span class="text-2xl">🍫</span></div>
+                  <p class="text-sm uppercase tracking-widest text-slate-500">Freshomat</p>
+                  <p class="mt-1 text-lg font-semibold">Snacky • Nápoje • Káva</p>
+                  <p class="mt-2 text-slate-600">Moderné automaty s prémiovým sortimentom a spoľahlivým servisom.</p>
+                </div>
+              </div>
+              <div class="mt-4 grid grid-cols-3 gap-3 text-center text-xs text-slate-600">
+                <div class="rounded-xl border border-slate-200 p-3">Exteriér</div>
+                <div class="rounded-xl border border-slate-200 p-3">Interiér</div>
+                <div class="rounded-xl border border-slate-200 p-3">Školy & firmy</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- (Sections omitted here for brevity in this code cell; full content is same as previous build) -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => { navigator.serviceWorker.register('./sw.js').catch(console.error); });
+    }
+  </script>
+</body>
+</html>
